@@ -119,7 +119,7 @@ func MakeAndStartBot(version, commit, token, url, emojiGuildID string, extraToke
 
 	listeningTo := os.Getenv("AUTOMUTEUS_LISTENING")
 	if listeningTo == "" {
-		listeningTo = ".au help"
+		listeningTo = "Tomsi ist sus!"
 	}
 
 	status := &discordgo.UpdateStatusData{
